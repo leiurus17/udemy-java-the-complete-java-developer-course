@@ -9,6 +9,9 @@ public class Main {
         int myMaxValue = 2_147_483_647; // you can insert underscores for readability
 
         // byte primitive variables
-        byte myByteValue = 10;
+        byte myByteValue = 127;
+
+        // short primitive variable
+        short myShortValue = 32767;
     }
 }
