@@ -4,11 +4,14 @@ public class Main4 {
 
     public static void main(String[] args) {
         char myChar = 'D';
-        char unicode = '\u00A9';
+        char unicodeCopyright = '\u00A9';
+        char unicodeRegistered = '\u00AE';
 
         System.out.println(myChar);
-        System.out.println(unicode);
+        System.out.println(unicodeCopyright);
+        System.out.println(unicodeRegistered);
 
-
+        boolean myBoolean = false;
+        boolean isMale = true;
     }
 }
