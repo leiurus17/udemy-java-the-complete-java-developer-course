@@ -13,5 +13,8 @@ public class Main4 {
 
         boolean myBoolean = false;
         boolean isMale = true;
+
+        System.out.println(myBoolean);
+        System.out.println(isMale);
     }
 }
