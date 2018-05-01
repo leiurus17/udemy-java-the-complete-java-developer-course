@@ -21,5 +21,27 @@ public class Main6 {
 
         result = result / 5;
         System.out.println(previousResult + " / 5 = " + result);
+
+        previousResult = result;
+        result = result % 3;
+        System.out.println(previousResult + " % 3 = " + result);
+
+        result = result + 1;
+        System.out.println("Result is now " + result);
+
+        result++;
+        System.out.println("Result is now " + result);
+
+        result += 2;
+        System.out.println("Result is now " + result);
+
+        result *= 10;
+        System.out.println("Result is now " + result);
+
+        result -= 10;
+        System.out.println("Result is now " + result);
+
+        result /= 10;
+        System.out.println("Result is now " + result);
     }
 }
