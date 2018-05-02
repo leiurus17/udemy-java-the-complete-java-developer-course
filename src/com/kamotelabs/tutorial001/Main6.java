@@ -54,7 +54,7 @@ public class Main6 {
             System.out.println("You did not got the high score!");
 
         int secondTopScore = 60;
-        if (topScore > secondTopScore && topScore < 100)
+        if ((topScore > secondTopScore) && (topScore < 100))
             System.out.println("Greater than second top score and less than 100");
     }
 }
