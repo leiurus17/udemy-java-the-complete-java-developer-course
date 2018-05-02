@@ -65,5 +65,10 @@ public class Main6 {
         if (newValue == 50) {
             System.out.println("Yes, the newValue is " + newValue);
         }
+
+        boolean isCar = false;
+        if (isCar = true) {
+            System.out.println("This is not supposed to happen.");
+        }
     }
 }
