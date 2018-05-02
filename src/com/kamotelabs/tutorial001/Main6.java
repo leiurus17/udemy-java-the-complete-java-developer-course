@@ -60,5 +60,10 @@ public class Main6 {
         if ((topScore > 90) || (secondTopScore <= 90)) {
             System.out.println("One of these test is true.");
         }
+
+        int newValue = 50;
+        if (newValue == 50) {
+            System.out.println("Yes, the newValue is " + newValue);
+        }
     }
 }
