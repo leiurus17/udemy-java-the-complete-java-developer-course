@@ -70,5 +70,9 @@ public class Main6 {
         if (isCar) {
             System.out.println("This is not supposed to happen.");
         }
+
+        boolean wasCar = isCar ? true : false;
+
+        System.out.println(wasCar);
     }
 }
