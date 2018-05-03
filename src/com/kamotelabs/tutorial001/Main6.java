@@ -66,13 +66,16 @@ public class Main6 {
             System.out.println("Yes, the newValue is " + newValue);
         }
 
-        boolean isCar = false;
+        boolean isCar = true;
         if (isCar) {
-            System.out.println("This is not supposed to happen.");
+            System.out.println("This is supposed to happen.");
         }
 
         boolean wasCar = isCar ? true : false;
 
         System.out.println(wasCar);
+
+        if(wasCar)
+            System.out.println("wasCar is true");
     }
 }
