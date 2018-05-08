@@ -15,7 +15,22 @@ public class Main2 {
             "But wait!");
 
         int anotherVariable = 100; myVariable++; // This is valid but this is ugly!
-        
+
+
+
+        int                     thisIsVariable
+
+
+                =
+
+                                40
+
+                ;
+
+        System.out.println(thisIsVariable);
+
+        // int thisIsVariable = 40;
+        // Again, it's still valid but don't do this!
 
     }
 }
