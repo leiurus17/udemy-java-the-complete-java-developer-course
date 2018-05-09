@@ -4,7 +4,7 @@ public class Main3 {
 
     public static void main(String[] args) {
         boolean gameOver = true;
-        int score = 4000;
+        int score = 800;
         int levelCompleted = 5;
         int bonus = 100;
 
@@ -14,6 +14,11 @@ public class Main3 {
             System.out.println("Your score was less than 1000");
         } else {
             System.out.println("Got here.");
+        }
+
+        if (gameOver == true) {
+            int finalScore = score + (levelCompleted * bonus);
+            System.out.println("Your final score was " + finalScore);
         }
     }
 }
