@@ -16,7 +16,7 @@ public class Main3 {
             System.out.println("Got here.");
         }
 
-        if (gameOver == true) {
+        if (gameOver) {
             int finalScore = score + (levelCompleted * bonus);
             System.out.println("Your final score was " + finalScore);
         }
