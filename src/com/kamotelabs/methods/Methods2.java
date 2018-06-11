@@ -18,4 +18,16 @@ public class Methods2 {
     // call both methods and display the results of the following
     // a score of 1500, 900, 400 and 50
     //
+
+    public static void main(String[] args) {
+
+    }
+
+    public static void displayHighScorePosition(String playerName, int score) {
+
+    }
+
+    public static int calculateHighScorePosition(int score) {
+        return 0;
+    }
 }
