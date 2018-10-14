@@ -45,5 +45,7 @@ public class Methods2 {
         } else if (score >= 100) {
             position = 3;
         }
+
+        return position;
     }
 }
